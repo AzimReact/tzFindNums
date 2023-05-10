@@ -43,7 +43,6 @@ const findNums = (nums) => {
         if (nums[middle] - middle === 1) {
             start = middle + 1;
         } else if (nums[middle] - middle === 2) {
-            start = middle + 1;
             end = middle - 1;
         } else if (nums[middle] - middle === 3) {
             end = middle - 1;
