@@ -24,7 +24,6 @@ const findNums = (nums) => {
 
         if (nums[middle] - middle === 1) start = middle + 1;
         if (nums[middle] - middle === 2) end = middle - 1;
-        if (nums[middle] - middle === 3) end = middle - 1;
     };
 
     return result;
